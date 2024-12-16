@@ -1,0 +1,96 @@
+.Principal{
+
+}
+
+.Principal .presentacion{
+    background: url('../images/fondo_inicio.jpg');
+    background-size: cover;
+    background-position:top;
+}
+
+.Principal .presentacion .contenido{
+    max-width: 1000px;
+    margin: auto;
+    text-align: center;
+    padding: 0 10px;
+}
+
+.Principal .presentacion .contenido header{
+    padding:30px;
+}
+
+.Principal .presentacion .contenido header .nav-bar { 
+    position: fixed;
+    background-color: #0033ff;
+    font-size: 20px;
+    width:50px;
+    height:50px;
+    border-radius: 50%;
+    line-height: 50px;
+    cursor:pointer;
+    transition: .3s;
+}
+
+
+.Principal .presentacion .contenido header .nav-bar a{ 
+    color: #ffffff;
+}
+
+.Principal .presentacion .contenido header nav { 
+    position: fixed;
+    margin-left:60px;
+    background-color: #0033ff;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: left;
+    z-index: 99;
+}
+
+.Principal .presentacion .contenido header nav a{ 
+    display: block;
+    color: #ffffff;
+    text-decoration:none;
+    margin-bottom:10px;
+    font-weight: bold;
+}
+
+
+.Principal .presentacion .contenido .info{
+    padding-bottom: 130px;
+}
+
+.Principal .presentacion .contenido .info h1{
+    font-size: 3rem;
+    letter-spacing: 5px;
+}
+
+.Principal .presentacion .contenido .info h2{
+    font-weight: normal;
+    font-size: 25px;
+    margin-top: -10px;
+    letter-spacing: 2px;
+}
+
+.Principal .presentacion .contenido .info .redes{
+    margin: 20px 0
+}
+
+.Principal .presentacion .contenido .info .redes a{
+    display: inline-block;
+    text-decoration: none;
+    background-color: #000c78;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    margin: 0 5px;
+    transition: 0.3s;
+}
+
+.Principal .presentacion .contenido .info .redes a:hover{
+    color: #fff;
+    background-color: #4f6dff;
+    box-shadow: 0 0 20px #fff;
+}
