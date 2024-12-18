@@ -11,10 +11,10 @@ function Principal() {
       <section className="presentacion">
         <div className="contenido">
           <header>
-            <div class="nav-bar" onclick="mostrarOcultarMenu()">
+            <div className="nav-bar" onclick="mostrarOcultarMenu()">
               <a href=""><FontAwesomeIcon icon={faBars} /></a>
             </div>
-            <nav class="nav" id="nav">
+            <nav className="nav" id="nav">
               <a href="#inicio">Inicio</a>
               <a href="#sobremi">Sobre mi</a>
               <a href="#habilidades">Habilidades</a>
@@ -25,7 +25,7 @@ function Principal() {
           <div className="info">
             <h1>ETHAN ARREDONDO</h1>
             <h2>Diseñador y Desarrollador de Software</h2>
-            <div class="redes">
+            <div className="redes">
               <a href=""><FontAwesomeIcon icon={faFacebook} /></a>
               <a href=""><FontAwesomeIcon icon={faInstagram} /></a>
               <a href=""><FontAwesomeIcon icon={faYoutube} /></a>
@@ -33,20 +33,23 @@ function Principal() {
               <a href=""><FontAwesomeIcon icon={faGithub} /></a>
             </div>
           </div>
+          <div className="foto">
+            <img src="./ethan.png" alt=""></img>
+          </div>
         </div>
       </section>
       <section className="info_personal">
         <div className="contenido">
           <h3>Sobre mi</h3>
           <h2>PERFIL PROFESIONAL</h2>
-          <p>Egresado de la carrera Diseño y Desarrollo de Software en Tecsup.</p>
+          <p className="especial">Egresado de la carrera Diseño y Desarrollo de Software en Tecsup.</p>
           <p>Destacado por liderar equipos, adaptarse rápidamente a nuevos desafíos y mantener una actitud proactiva y positiva bajo presión. Poseé habilidades de comunicación efectiva y capacidad para aprender rápidamente, con el objetivo de aportar soluciones innovadoras y eficientes</p>
         </div>
       </section>
       <section className="habilidades">
         <div className="contenido">
           <h3>Mis habilidades</h3>
-          <h2>ME ESPECIALIZO EN</h2>
+          <h2>Me especializo en</h2>
           <div className="fila">
             <div className="columna">
               <h4>HTML/CSS</h4>
