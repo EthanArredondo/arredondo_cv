@@ -158,6 +158,29 @@
     color: #666;
 }
 
+.Principal .info_personal .contenido .fila {
+    display: flex;
+    margin-top: 30px;
+    justify-content: space-between;
+}
+.Principal .info_personal .contenido .fila .col{
+    width: 30%;
+}
+.Principal .info_personal .contenido .fila .col i{
+    color: #940253;
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    border: 2px solid #940253;
+    line-height: 40px;
+    border-radius: 50%;
+}
+.Principal .info_personal .contenido .fila .col span{
+    display: block;
+    font-weight: bold;
+    margin: 8px;
+}
+
 .Principal .habilidades{
     padding: 80px 0 100px 0;
     text-align: center;
@@ -208,4 +231,122 @@
     width: 20px;
     height: 30px;
     margin-right: 2px;
+}
+
+.Principal .experiencia{
+    background-color: #e6e6e6;
+    padding: 140px 0 100px 0;
+    text-align: center;
+}
+.Principal .experiencia .contenido{
+    max-width: 1000px;
+    margin: auto;
+    padding: 0 10px;
+}
+
+.Principal .experiencia .contenido h3{
+    text-transform: uppercase;
+    font-size: 30px;
+}
+.Principal .experiencia .contenido .info{
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.Principal .experiencia .contenido .info .col{
+    width: 45%;
+}
+.Principal .experiencia .contenido .info .titulo{
+    display: inline-block;
+    color: #940253;
+    font-weight: bold;
+    border: 2px solid #940253;
+    padding: 10px;
+}
+.Principal .experiencia .contenido .info .col table{
+    margin-top: 30px;
+    border-collapse: collapse;
+}
+.Principal .experiencia .contenido .info .col table .datos{
+    width: 40%;
+    border-bottom: 1px solid #bab9b9;
+}
+.Principal .experiencia .contenido .info .col table h4{
+    margin-top: 10px;
+}
+.Principal .experiencia .contenido .info .col table h3{
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+.Principal .experiencia .contenido .info .col table p {
+    font-size: 14px;
+}
+.Principal .experiencia .contenido .info .col table .promedio{
+    display: block;
+    color: #940253;
+    margin-top: 10px;
+    font-weight: bold;
+}
+.Principal .experiencia .contenido .info .col table .descripción{
+    border-left: 1px solid #bab9b9;
+    padding-left: 20px;
+}
+
+.Principal .contacto{
+    background-color: #202020;
+    padding: 140px 0 100px 0;
+    color: #e6e6e6;
+    text-align: center;
+}
+.Principal .contacto .contenido{
+    max-width: 1000px;
+    margin: auto;
+    padding: 0 10px;
+}
+.Principal .contacto .contenido h3{
+    text-transform: uppercase;
+    font-size: 30px;
+}
+.Principal .contacto .contenido .fila{
+    display: flex;    
+    justify-content: space-around;
+}
+.Principal .contacto .contenido .fila .col{
+    margin-top: 50px;
+}
+.Principal .contacto .contenido .fila .col h2{
+    color: #940253;
+}
+
+
+@media screen and (max-width:800px){
+    .Principal .habilidades .contenido .fila{
+        display: block;
+    }
+    .Principal .habilidades .contenido .fila .col{
+        width: 100%;
+        text-align: center;
+    }
+    .Principal .habilidades .contenido .fila .col .cont-barra{
+        justify-content: center;
+    }
+    .Principal .info_personal .contenido .fila{
+        display: block;
+    }
+    .Principal .info_personal .contenido .fila .col{
+        width: 80%;
+        margin: auto;
+        margin-top: 20px;
+    }
+    .Principal .experiencia .contenido .info{
+        display: block;
+    }
+    .Principal .experiencia .contenido .info .col{
+        width: 90%;
+        margin: auto;
+    }
+    .Principal .experiencia .contenido .info .col .titulo{
+        display: block;
+    }
 }
