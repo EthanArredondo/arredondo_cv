@@ -44,23 +44,6 @@ function Principal() {
           <h2>PERFIL PROFESIONAL</h2>
           <p className="especial">Egresado de la carrera Diseño y Desarrollo de Software en Tecsup.</p>
           <p>Destacado por liderar equipos, adaptarse rápidamente a nuevos desafíos y mantener una actitud proactiva y positiva bajo presión. Poseé habilidades de comunicación efectiva y capacidad para aprender rápidamente, con el objetivo de aportar soluciones innovadoras y eficientes</p>
-          <div class="fila">
-            <div class="col">
-              <i><FontAwesomeIcon icon={faUser} /></i>
-              <span class="titulo-detalle">Perfil</span>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est a debitis sed quis quasi neque, autem aut, rerum et dolorum omnis, voluptatibus quibusdam quae minima explicabo obcaecati. Quod, corrupti similique?</p>
-            </div>
-            <div class="col">
-              <i><FontAwesomeIcon icon={faLocation} /></i>
-              <span class="titulo-detalle">Ubicación</span>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est a debitis sed quis quasi neque, autem aut, rerum et dolorum omnis, voluptatibus quibusdam quae minima explicabo obcaecati. Quod, corrupti similique?</p>
-            </div>
-            <div class="col">
-              <i><FontAwesomeIcon icon={faFlag} /></i>
-              <span class="titulo-detalle">Intereses</span>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est a debitis sed quis quasi neque, autem aut, rerum et dolorum omnis, voluptatibus quibusdam quae minima explicabo obcaecati. Quod, corrupti similique?</p>
-            </div>
-          </div>
         </div>
       </section>
       <section className="habilidades">
