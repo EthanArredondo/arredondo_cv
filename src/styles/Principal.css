@@ -203,22 +203,27 @@
     font-size: 30px;
 }
 
-.Principal .habilidades .contenido .fila{
-    display: flex;
-    justify-content: center;
-    margin-top: 30px;
+.Principal .habilidades .contenido .seleccion{
+    display: none;
 }
 
-.Principal .habilidades .contenido .fila .columna{
+.Principal .habilidades .contenido .seleccion .fila{
+    display: flex;
+    justify-content: center;
+    margin-top: 75px;
+    margin-bottom: 75px;
+}
+
+.Principal .habilidades .contenido .seleccion .fila .columna{
     width: 30%;
 }
 
-.Principal .habilidades .contenido .fila .columna .barra_progreso{
+.Principal .habilidades .contenido .seleccion .fila .columna .barra_progreso{
     display: flex;
     align-items: center;
 }
 
-.Principal .habilidades .contenido .fila .columna .barra_progreso .barra{
+.Principal .habilidades .contenido .seleccion .fila .columna .barra_progreso .barra{
     display: flex;
     border: 1px solid #940253;
     padding: 2px;
@@ -226,7 +231,7 @@
     margin-right: 10px;
 }
 
-.Principal .habilidades .contenido .fila .columna .barra_progreso .barra .e{
+.Principal .habilidades .contenido .seleccion .fila .columna .barra_progreso .barra .e{
     background-color: #363636;
     width: 20px;
     height: 30px;

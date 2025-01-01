@@ -1,0 +1,20 @@
+.Progreso .cont-barra{
+    display: flex;
+    align-items: center;
+}
+
+.Progreso .cont-barra .barra{
+    display: flex;
+    border: 1px solid #9500ff;
+    padding: 2px;
+    border-radius: 3px;
+    margin-right: 10px;
+}
+
+.Progreso .cont-barra .barra .e{
+    background-color: #363636;
+    width: 20px;
+    height: 30px;
+    margin-right: 2px;
+}
+

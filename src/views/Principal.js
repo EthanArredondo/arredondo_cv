@@ -4,6 +4,8 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFacebook, faInstagram, faYoutube, faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons';
 import { faBars, faUser, faLocation, faFlag } from '@fortawesome/free-solid-svg-icons'; // Importa un ícono específico
 
+import Button from "../components/Button";
+import ProgresoLenguajes from "../components/ProgresoLenguajes";
 
 function Principal() {
   return (
@@ -40,7 +42,6 @@ function Principal() {
       </section>
       <section className="info_personal">
         <div className="contenido">
-          <h3>Sobre mi</h3>
           <h2>PERFIL PROFESIONAL</h2>
           <p className="especial">Egresado de la carrera Diseño y Desarrollo de Software en Tecsup.</p>
           <p>Destacado por liderar equipos, adaptarse rápidamente a nuevos desafíos y mantener una actitud proactiva y positiva bajo presión. Poseé habilidades de comunicación efectiva y capacidad para aprender rápidamente, con el objetivo de aportar soluciones innovadoras y eficientes</p>
@@ -48,111 +49,32 @@ function Principal() {
       </section>
       <section className="habilidades">
         <div className="contenido">
-          <h3>Mis habilidades</h3>
-          <h2>Me especializo en</h2>
-          <div className="fila">
-            <div className="columna">
-              <h4>HTML/CSS</h4>
-              <div className="barra_progreso">
-                <div className="barra"></div>
+          <h2>MIS HABILIDADES</h2>
+          <div className="seleccion">
+            <div className="fila">
+              <div className="columna">
+                <Button texto={"Lenguajes de Programación"} />
+              </div>
+              <div className="columna">
+                <Button texto={"Bases de Datos"} />
+              </div>
+              <div className="columna">
+                <Button texto={"Herramientas Cloud"} />
               </div>
             </div>
-            <div className="columna">
-              <h4>JAVASCRIPT</h4>
-              <div className="barra_progreso">
-                <div className="barra"></div>
+            <div className="fila">
+              <div className="columna">
+                <Button texto={"Frameworks"} />
               </div>
-            </div>
-            <div className="columna">
-              <h4>JAVA</h4>
-              <div className="barra_progreso">
-                <div className="barra"></div>
+              <div className="columna">
+                <Button texto={"Metodologías"} />
               </div>
-            </div>
-          </div>
-          <div className="fila">
-            <div className="columna">
-              <h4>PYTHON</h4>
-              <div className="barra_progreso">
-                <div className="barra"></div>
-              </div>
-            </div>
-            <div className="columna">
-              <h4>PHP</h4>
-              <div className="barra_progreso">
-                <div className="barra"></div>
-              </div>
-            </div>
-            <div className="columna">
-              <h4>C</h4>
-              <div className="barra_progreso">
-                <div className="barra"></div>
+              <div className="columna">
+                <Button texto={"Extras"} />
               </div>
             </div>
           </div>
-          <div className="fila">
-            <div className="columna">
-              <h4>MYSQL</h4>
-              <div className="barra_progreso">
-                <div className="barra"></div>
-              </div>
-            </div>
-            <div className="columna">
-              <h4>MONGODB</h4>
-              <div className="barra_progreso">
-                <div className="barra"></div>
-              </div>
-            </div>
-            <div className="columna">
-              <h4>ORACLE</h4>
-              <div className="barra_progreso">
-                <div className="barra"></div>
-              </div>
-            </div>
-          </div>
-          <h2>OTRAS HABILIDADES</h2>
-          <div className="fila">
-            <div className="columna">
-              <h4>DOCKER</h4>
-              <div className="barra_progreso">
-                <div className="barra"></div>
-              </div>
-            </div>
-            <div className="columna">
-              <h4>3T</h4>
-              <div className="barra_progreso">
-                <div className="barra"></div>
-              </div>
-            </div>
-          </div>
-          <div className="fila">
-            <div className="columna">
-              <h4>SAP</h4>
-              <div className="barra_progreso">
-                <div className="barra"></div>
-              </div>
-            </div>
-            <div className="columna">
-              <h4>BIZAGI</h4>
-              <div className="barra_progreso">
-                <div className="barra"></div>
-              </div>
-            </div>
-          </div>
-          <div className="fila">
-            <div className="columna">
-              <h4>PHOTOSHOP</h4>
-              <div className="barra_progreso">
-                <div className="barra"></div>
-              </div>
-            </div>
-            <div className="columna">
-              <h4>POSTMAN</h4>
-              <div className="barra_progreso">
-                <div className="barra"></div>
-              </div>
-            </div>
-          </div>
+          <ProgresoLenguajes />
         </div>
       </section>
       <section className="experiencia">
