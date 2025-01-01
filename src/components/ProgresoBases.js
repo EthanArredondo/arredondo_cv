@@ -2,44 +2,44 @@ import Progreso from "./Progreso"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faArrowLeft } from "@fortawesome/free-solid-svg-icons";
 
-import '../styles/ProgresoLenguajes.css'
+import '../styles/ProgresoBases.css'
 
 
-function ProgresoLenguajes() {
+function ProgresoBases() {
     return (
-        <div className="ProgresoLenguajes">
+        <div className="ProgresoBases">
             <FontAwesomeIcon icon={faArrowLeft} />
             <div className="contenido">
                 <div className="fila">
                     <div className="columna">
-                        <Progreso habilidad={"HTML/CSS"} />
+                        <Progreso habilidad={"MySQL"} />
                     </div>
                     <div className="columna">
-                        <Progreso habilidad={"JAVASCRIPT"} />
-                    </div>
-                </div>
-                <div className="fila">
-                    <div className="columna">
-                        <Progreso habilidad={"JAVA"} />
-                    </div>
-                    <div className="columna">
-                        <Progreso habilidad={"PYTHON"} />
+                        <Progreso habilidad={"PostgreSQL"} />
                     </div>
                 </div>
                 <div className="fila">
                     <div className="columna">
-                        <Progreso habilidad={"PHP"} />
+                        <Progreso habilidad={"Oracle"} />
                     </div>
                     <div className="columna">
-                        <Progreso habilidad={"C#"} />
+                        <Progreso habilidad={"MongoDB"} />
                     </div>
                 </div>
                 <div className="fila">
                     <div className="columna">
-                        <Progreso habilidad={"R"} />
+                        <Progreso habilidad={"PhpMyAdmin"} />
                     </div>
                     <div className="columna">
-                        <Progreso habilidad={"C"} />
+
+                    </div>
+                </div>
+                <div className="fila">
+                    <div className="columna">
+
+                    </div>
+                    <div className="columna">
+
                     </div>
                 </div>
             </div>
@@ -47,4 +47,4 @@ function ProgresoLenguajes() {
     )
 }
 
-export default ProgresoLenguajes;
+export default ProgresoBases;

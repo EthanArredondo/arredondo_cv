@@ -203,10 +203,6 @@
     font-size: 30px;
 }
 
-.Principal .habilidades .contenido .seleccion{
-    display: none;
-}
-
 .Principal .habilidades .contenido .seleccion .fila{
     display: flex;
     justify-content: center;
@@ -218,31 +214,12 @@
     width: 30%;
 }
 
-.Principal .habilidades .contenido .seleccion .fila .columna .barra_progreso{
-    display: flex;
-    align-items: center;
-}
-
-.Principal .habilidades .contenido .seleccion .fila .columna .barra_progreso .barra{
-    display: flex;
-    border: 1px solid #940253;
-    padding: 2px;
-    border-radius: 3px;
-    margin-right: 10px;
-}
-
-.Principal .habilidades .contenido .seleccion .fila .columna .barra_progreso .barra .e{
-    background-color: #363636;
-    width: 20px;
-    height: 30px;
-    margin-right: 2px;
-}
-
 .Principal .experiencia{
     background-color: #e6e6e6;
     padding: 140px 0 100px 0;
     text-align: center;
 }
+
 .Principal .experiencia .contenido{
     max-width: 1000px;
     margin: auto;

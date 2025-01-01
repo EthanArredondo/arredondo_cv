@@ -6,6 +6,7 @@ import { faBars, faUser, faLocation, faFlag } from '@fortawesome/free-solid-svg-
 
 import Button from "../components/Button";
 import ProgresoLenguajes from "../components/ProgresoLenguajes";
+import ProgresoBases from "../components/ProgresoBases";
 
 function Principal() {
   return (
@@ -50,7 +51,7 @@ function Principal() {
       <section className="habilidades">
         <div className="contenido">
           <h2>MIS HABILIDADES</h2>
-          <div className="seleccion">
+          <div className="seleccion" style={{ display: "none" }}>
             <div className="fila">
               <div className="columna">
                 <Button texto={"Lenguajes de Programación"} />
@@ -74,9 +75,10 @@ function Principal() {
               </div>
             </div>
           </div>
-          <ProgresoLenguajes />
+          <div style={{ display: "none" }}><ProgresoLenguajes /></div>
+          <div style={{ display: "" }}><ProgresoBases /></div>
         </div>
-      </section>
+      </section >
       <section className="experiencia">
         <div className="contenido">
           <h3>Resumen</h3>
@@ -200,7 +202,7 @@ function Principal() {
           </div>
         </div>
       </section>
-    </div>
+    </div >
   );
 }
 
