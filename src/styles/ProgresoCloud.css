@@ -1,0 +1,21 @@
+.ProgresoCloud {
+    display: flex;
+    align-items: flex-start; /* Alinea los elementos en la parte superior */
+    justify-content: center; /* Alinea horizontalmente al centro */
+}
+
+.ProgresoCloud .fa-arrow-left {
+    cursor: pointer; /* Cambia el cursor al pasar sobre la flecha */
+    height: 25px;
+}
+
+.ProgresoCloud .fila{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.ProgresoCloud .fila .columna{
+    width: 45%;
+    text-align: left;
+}

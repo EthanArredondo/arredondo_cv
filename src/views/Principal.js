@@ -7,6 +7,7 @@ import { faBars, faUser, faLocation, faFlag } from '@fortawesome/free-solid-svg-
 import Button from "../components/Button";
 import ProgresoLenguajes from "../components/ProgresoLenguajes";
 import ProgresoBases from "../components/ProgresoBases";
+import ProgresoCloud from "../components/ProgresoCloud";
 
 function Principal() {
   return (
@@ -76,7 +77,8 @@ function Principal() {
             </div>
           </div>
           <div style={{ display: "none" }}><ProgresoLenguajes /></div>
-          <div style={{ display: "" }}><ProgresoBases /></div>
+          <div style={{ display: "none" }}><ProgresoBases /></div>
+          <div style={{ display: "" }}><ProgresoCloud /></div>
         </div>
       </section >
       <section className="experiencia">
