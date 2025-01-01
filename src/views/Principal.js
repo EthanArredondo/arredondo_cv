@@ -8,6 +8,8 @@ import Button from "../components/Button";
 import ProgresoLenguajes from "../components/ProgresoLenguajes";
 import ProgresoBases from "../components/ProgresoBases";
 import ProgresoCloud from "../components/ProgresoCloud";
+import ProgresoFramework from "../components/ProgresoFramework";
+import ProgresoMetodologias from "../components/ProgresoMetodologias";
 
 function Principal() {
   return (
@@ -78,7 +80,9 @@ function Principal() {
           </div>
           <div style={{ display: "none" }}><ProgresoLenguajes /></div>
           <div style={{ display: "none" }}><ProgresoBases /></div>
-          <div style={{ display: "" }}><ProgresoCloud /></div>
+          <div style={{ display: "none" }}><ProgresoCloud /></div>
+          <div style={{ display: "none" }}><ProgresoFramework /></div>
+          <div style={{ display: "" }}><ProgresoMetodologias /></div>
         </div>
       </section >
       <section className="experiencia">
