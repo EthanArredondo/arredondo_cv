@@ -10,6 +10,7 @@ import ProgresoBases from "../components/ProgresoBases";
 import ProgresoCloud from "../components/ProgresoCloud";
 import ProgresoFramework from "../components/ProgresoFramework";
 import ProgresoMetodologias from "../components/ProgresoMetodologias";
+import ProgresoExtras from "../components/ProgresoExtras";
 
 function Principal() {
   return (
@@ -54,7 +55,7 @@ function Principal() {
       <section className="habilidades">
         <div className="contenido">
           <h2>MIS HABILIDADES</h2>
-          <div className="seleccion" style={{ display: "none" }}>
+          <div className="seleccion" style={{ display: "" }}>
             <div className="fila">
               <div className="columna">
                 <Button texto={"Lenguajes de Programación"} />
@@ -82,7 +83,8 @@ function Principal() {
           <div style={{ display: "none" }}><ProgresoBases /></div>
           <div style={{ display: "none" }}><ProgresoCloud /></div>
           <div style={{ display: "none" }}><ProgresoFramework /></div>
-          <div style={{ display: "" }}><ProgresoMetodologias /></div>
+          <div style={{ display: "none" }}><ProgresoMetodologias /></div>
+          <div style={{ display: "none" }}><ProgresoExtras /></div>
         </div>
       </section >
       <section className="experiencia">

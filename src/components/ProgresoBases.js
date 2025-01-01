@@ -31,7 +31,7 @@ function ProgresoBases() {
                         <Progreso habilidad={"PhpMyAdmin"} />
                     </div>
                     <div className="columna">
-
+                        <Progreso habilidad={"SQL Server"} />
                     </div>
                 </div>
                 <div className="fila">
