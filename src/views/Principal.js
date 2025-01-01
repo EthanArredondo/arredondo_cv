@@ -89,7 +89,6 @@ function Principal() {
       </section >
       <section className="experiencia">
         <div className="contenido">
-          <h3>Resumen</h3>
           <h2>PREPARACIÓN Y EXPERIENCIAS</h2>
           <div className="info">
             <div class="col">
@@ -97,34 +96,16 @@ function Principal() {
               <table>
                 <tr>
                   <td class="datos">
-                    <h3>2006-2010</h3>
+                    <h4>2022 - 2024</h4>
                   </td>
                   <td rowspan="2" class="descripción">
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sapiente eaque pariatur reiciendis. Laboriosam adipisci eos eaque, at culpa, minima nostrum quam odit blanditiis, architecto voluptatem. Quaerat libero unde odit quos!
+                    <h4>Diseño y Desarrollo de Software</h4>
+                    <p>Egresado de la carrera de diseño y desarrollo de software posicionado en el tercio superior.</p>
                   </td>
                 </tr>
                 <tr>
                   <td>
-                    <h4>Lic. en computación</h4>
-                    <p>Universidad de San Juan</p>
-                    <span class="promedio">8.9PG</span>
-                  </td>
-                </tr>
-              </table>
-              <table>
-                <tr>
-                  <td class="datos">
-                    <h3>2010-2015</h3>
-                  </td>
-                  <td rowspan="2" class="descripción">
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sapiente eaque pariatur reiciendis. Laboriosam adipisci eos eaque, at culpa, minima nostrum quam odit blanditiis, architecto voluptatem. Quaerat libero unde odit quos!
-                  </td>
-                </tr>
-                <tr>
-                  <td>
-                    <h4>Programador FS</h4>
-                    <p>Udemy Cursos</p>
-                    <span class="promedio">8.9PG</span>
+                    <h5>Instituto de Educación Superior Tecnológico TECSUP</h5>
                   </td>
                 </tr>
               </table>
@@ -134,34 +115,32 @@ function Principal() {
               <table>
                 <tr>
                   <td class="datos">
-                    <h3>3 años</h3>
+                    <h4>Enero 2024 - Abril 2024</h4>
                   </td>
                   <td rowspan="2" class="descripción">
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sapiente eaque pariatur reiciendis. Laboriosam adipisci eos eaque, at culpa, minima nostrum quam odit blanditiis, architecto voluptatem. Quaerat libero unde odit quos!
+                    <h4>Desarrollador de software</h4>
+                    <p>Diseñó y desarrolló un sistema de gestión de ventas e inventarios para una empresa de ropa, optimizando el control del almacén y automatizando el registro de ventas mediante el uso de React en el frontend y Spring Boot en el backend. Asumió la responsabilidad total del ciclo de desarrollo, desde la planificación hasta la implementación.</p>
                   </td>
                 </tr>
                 <tr>
                   <td>
-                    <h4>Mercado Libre</h4>
-                    <p>Programador Junior</p>
-                    <span class="promedio">8.9PG</span>
+                    <h5>Colebel Group E.I.R.L.<br />(Pijama June)</h5>
                   </td>
                 </tr>
               </table>
               <table>
                 <tr>
                   <td class="datos">
-                    <h3>2 años</h3>
+                    <h4>Agosto 2024 - Noviembre 2024</h4>
                   </td>
                   <td rowspan="2" class="descripción">
-                    Loredsdsdm, ipsum dolor sit amet consectetur adipisicing elit. Sapiente eaque pariatur reiciendis. Laboriosam adipisci eos eaque, at culpa, minima nostrum quam odit blanditiis, architecto voluptatem. Quaerat libero unde odit quos!
+                    <h4>Coodinador de Desarrollo Frontend</h4>
+                    <p>Coordinó el desarrollo frontend de una aplicación de solicitud de taxis, implementando las funcionalidades en React Native y diseñando interfaces en Figma. Su enfoque garantizó una experiencia de usuario eficiente y visualmente atractiva, cumpliendo con los objetivos del proyecto.</p>
                   </td>
                 </tr>
                 <tr>
                   <td>
-                    <h4>Software inc. FS</h4>
-                    <p>Diseñador principal</p>
-                    <span class="promedio">8.9PG</span>
+                    <h5>Jhardsystex S.A.C</h5>
                   </td>
                 </tr>
               </table>

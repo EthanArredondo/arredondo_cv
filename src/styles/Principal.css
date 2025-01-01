@@ -217,7 +217,7 @@
 
 .Principal .experiencia{
     background-color: #e6e6e6;
-    padding: 140px 0 100px 0;
+    padding: 100px 0;
     text-align: center;
 }
 
@@ -227,9 +227,10 @@
     padding: 0 10px;
 }
 
-.Principal .experiencia .contenido h3{
+.Principal .experiencia .contenido h2{
     text-transform: uppercase;
     font-size: 30px;
+    margin-bottom: 50px;
 }
 .Principal .experiencia .contenido .info{
     text-align: left;
@@ -242,9 +243,9 @@
 }
 .Principal .experiencia .contenido .info .titulo{
     display: inline-block;
-    color: #940253;
+    color: #001ae0;
     font-weight: bold;
-    border: 2px solid #940253;
+    border: 2px solid #001ae0;
     padding: 10px;
 }
 .Principal .experiencia .contenido .info .col table{
