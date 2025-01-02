@@ -4,34 +4,37 @@ import { faArrowLeft } from "@fortawesome/free-solid-svg-icons";
 
 import '../styles/ProgresoBases.css'
 
+import { volverSeleccion } from "../utils/flechaRetrocesoUtil";
 
 function ProgresoBases() {
     return (
         <div className="ProgresoBases">
-            <FontAwesomeIcon icon={faArrowLeft} />
+            <button className="back-button" onClick={() => volverSeleccion("bases")}>
+                <FontAwesomeIcon icon={faArrowLeft} />
+            </button>
             <div className="contenido">
                 <div className="fila">
                     <div className="columna">
-                        <Progreso habilidad={"MySQL"} />
+                        <Progreso habilidad={"MySQL"} rectangulosPintados={12} />
                     </div>
                     <div className="columna">
-                        <Progreso habilidad={"PostgreSQL"} />
-                    </div>
-                </div>
-                <div className="fila">
-                    <div className="columna">
-                        <Progreso habilidad={"Oracle"} />
-                    </div>
-                    <div className="columna">
-                        <Progreso habilidad={"MongoDB"} />
+                        <Progreso habilidad={"PostgreSQL"} rectangulosPintados={8} />
                     </div>
                 </div>
                 <div className="fila">
                     <div className="columna">
-                        <Progreso habilidad={"PhpMyAdmin"} />
+                        <Progreso habilidad={"Oracle"} rectangulosPintados={8} />
                     </div>
                     <div className="columna">
-                        <Progreso habilidad={"SQL Server"} />
+                        <Progreso habilidad={"MongoDB"} rectangulosPintados={10} />
+                    </div>
+                </div>
+                <div className="fila">
+                    <div className="columna">
+                        <Progreso habilidad={"PhpMyAdmin"} rectangulosPintados={11} />
+                    </div>
+                    <div className="columna">
+                        <Progreso habilidad={"SQL Server"} rectangulosPintados={10} />
                     </div>
                 </div>
                 <div className="fila">

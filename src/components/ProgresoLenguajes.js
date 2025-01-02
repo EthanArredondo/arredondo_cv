@@ -4,42 +4,45 @@ import { faArrowLeft } from "@fortawesome/free-solid-svg-icons";
 
 import '../styles/ProgresoLenguajes.css'
 
+import { volverSeleccion } from "../utils/flechaRetrocesoUtil";
 
 function ProgresoLenguajes() {
     return (
         <div className="ProgresoLenguajes">
-            <FontAwesomeIcon icon={faArrowLeft} />
+            <button className="back-button" onClick={() => volverSeleccion("lenguajes")}>
+                <FontAwesomeIcon icon={faArrowLeft} />
+            </button>
             <div className="contenido">
                 <div className="fila">
                     <div className="columna">
-                        <Progreso habilidad={"HTML/CSS"} />
+                        <Progreso habilidad={"HTML/CSS"} rectangulosPintados={12} />
                     </div>
                     <div className="columna">
-                        <Progreso habilidad={"JAVASCRIPT"} />
-                    </div>
-                </div>
-                <div className="fila">
-                    <div className="columna">
-                        <Progreso habilidad={"JAVA"} />
-                    </div>
-                    <div className="columna">
-                        <Progreso habilidad={"PYTHON"} />
+                        <Progreso habilidad={"JAVASCRIPT"} rectangulosPintados={10} />
                     </div>
                 </div>
                 <div className="fila">
                     <div className="columna">
-                        <Progreso habilidad={"PHP"} />
+                        <Progreso habilidad={"JAVA"} rectangulosPintados={8} />
                     </div>
                     <div className="columna">
-                        <Progreso habilidad={"C#"} />
+                        <Progreso habilidad={"PYTHON"} rectangulosPintados={7} />
                     </div>
                 </div>
                 <div className="fila">
                     <div className="columna">
-                        <Progreso habilidad={"R"} />
+                        <Progreso habilidad={"PHP"} rectangulosPintados={6} />
                     </div>
                     <div className="columna">
-                        <Progreso habilidad={"C"} />
+                        <Progreso habilidad={"C#"} rectangulosPintados={2} />
+                    </div>
+                </div>
+                <div className="fila">
+                    <div className="columna">
+                        <Progreso habilidad={"R"} rectangulosPintados={8} />
+                    </div>
+                    <div className="columna">
+                        <Progreso habilidad={"C"} rectangulosPintados={8} />
                     </div>
                 </div>
             </div>

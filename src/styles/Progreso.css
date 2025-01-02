@@ -1,20 +1,29 @@
-.Progreso .cont-barra{
+.Progreso {
     display: flex;
-    align-items: center;
-}
-
-.Progreso .cont-barra .barra{
+    flex-direction: column;
+    margin-bottom: 1rem;
+  }
+  
+  .Progreso h4 {
+    margin-bottom: 0.5rem;
+  }
+  
+  .barra-progreso {
     display: flex;
-    border: 1px solid #9500ff;
+    border: 1px solid #ffffff;
     padding: 2px;
     border-radius: 3px;
-    margin-right: 10px;
-}
-
-.Progreso .cont-barra .barra .e{
+  }
+  
+  .rectangulo {
     background-color: #363636;
     width: 20px;
     height: 30px;
     margin-right: 2px;
-}
-
+    border-radius: 3px;
+  }
+  
+  .rectangulo.pintado {
+    background-color: #00b4fb;
+    border-radius: 3px;
+  }

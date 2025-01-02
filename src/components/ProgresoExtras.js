@@ -4,43 +4,47 @@ import { faArrowLeft } from "@fortawesome/free-solid-svg-icons";
 
 import '../styles/ProgresoExtras.css'
 
+import { volverSeleccion } from "../utils/flechaRetrocesoUtil";
+
 
 function ProgresoExtras() {
 
     return (
         <div className="ProgresoExtras">
-            <FontAwesomeIcon icon={faArrowLeft} />
+            <button className="back-button" onClick={() => volverSeleccion("extras")}>
+                <FontAwesomeIcon icon={faArrowLeft} />
+            </button>
             <div className="contenido">
                 <div className="fila">
                     <div className="columna">
-                        <Progreso habilidad={"Bizagi Studio"} />
+                        <Progreso habilidad={"Bizagi Studio"} rectangulosPintados={14} />
                     </div>
                     <div className="columna">
-                        <Progreso habilidad={"Bizagi Modeler"} />
+                        <Progreso habilidad={"Bizagi Modeler"} rectangulosPintados={14} />
                     </div>
                 </div>
                 <div className="fila" >
                     <div className="columna">
-                        <Progreso habilidad={"SAP"} />
+                        <Progreso habilidad={"SAP"} rectangulosPintados={11} />
                     </div>
                     <div className="columna">
-                        <Progreso habilidad={"Postman"} />
+                        <Progreso habilidad={"Postman"} rectangulosPintados={12} />
                     </div>
                 </div>
                 <div className="fila">
                     <div className="columna">
-                        <Progreso habilidad={"PhotoShop"} />
+                        <Progreso habilidad={"PhotoShop"} rectangulosPintados={8} />
                     </div>
                     <div className="columna">
-                        <Progreso habilidad={"Filmora"} />
+                        <Progreso habilidad={"Filmora"} rectangulosPintados={9} />
                     </div>
                 </div>
                 <div className="fila" >
                     <div className="columna">
-                        <Progreso habilidad={"Ingles"} />
+                        <Progreso habilidad={"Ingles"} rectangulosPintados={10} />
                     </div>
                     <div className="columna">
-                        <Progreso habilidad={"Japones"} />
+                        <Progreso habilidad={"Japones"} rectangulosPintados={3} />
                     </div>
                 </div>
             </div>

@@ -2,17 +2,28 @@
     display: flex;
     align-items: flex-start; /* Alinea los elementos en la parte superior */
     justify-content: center; /* Alinea horizontalmente al centro */
+    margin-top: 69px;
+
 }
 
 .ProgresoExtras .fa-arrow-left {
     cursor: pointer; /* Cambia el cursor al pasar sobre la flecha */
     height: 25px;
+    color: white;
 }
+
+.ProgresoExtras .back-button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
 
 .ProgresoExtras .fila{
     display: flex;
     justify-content: space-between;
-    margin-top: 50px;
+    margin-top: 30px;
 }
 
 .ProgresoExtras .fila .columna{
