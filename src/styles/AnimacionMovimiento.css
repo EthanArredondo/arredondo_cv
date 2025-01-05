@@ -1,0 +1,32 @@
+/* Animación para mover la sección actual a la derecha */
+@keyframes slideOutRight {
+    from {
+      transform: translateX(0);
+      opacity: 1;
+    }
+    to {
+      transform: translateX(100%);
+      opacity: 0;
+    }
+  }
+  
+  /* Animación para mover la sección "seleccion" desde la izquierda */
+  @keyframes slideInLeft {
+    from {
+      transform: translateX(-100%);
+      opacity: 0;
+    }
+    to {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+  
+  /* Clases para aplicar las animaciones */
+  .slide-out-right {
+    animation: slideOutRight 0.5s ease-out forwards;
+  }
+  
+  .slide-in-left {
+    animation: slideInLeft 0.5s ease-out forwards;
+  }

@@ -1,5 +1,6 @@
 import React from "react";
-import '../styles/Principal.css'
+import '../styles/Principal.css';
+
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faInstagram, faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons';
 import { faBars, faEnvelope } from '@fortawesome/free-solid-svg-icons'; // Importa un ícono específico
@@ -25,7 +26,7 @@ function Principal() {
         <div className="contenido">
           <header>
             <div className="nav-bar" onClick={mostrarOcultarMenu}>
-              <a href=""><FontAwesomeIcon icon={faBars} /></a>
+              <div><FontAwesomeIcon icon={faBars} /></div>
             </div>
             <nav className="nav" id="nav">
               <a href="#presentacion" onClick={mostrarOcultarMenu}>Inicio</a>
@@ -84,12 +85,12 @@ function Principal() {
               </div>
             </div>
           </div>
-          <div id="lenguajes" style={{ display: "none" }}><ProgresoLenguajes /></div>
-          <div id="bases" style={{ display: "none" }}><ProgresoBases /></div>
-          <div id="cloud" style={{ display: "none" }}><ProgresoCloud /></div>
-          <div id="frameworks" style={{ display: "none" }}><ProgresoFramework /></div>
-          <div id="metodologias" style={{ display: "none" }}><ProgresoMetodologias /></div>
-          <div id="extras" style={{ display: "none" }}><ProgresoExtras /></div>
+          <div id="lenguajes" className="progreso-seccion" style={{ display: "none" }}><ProgresoLenguajes /></div>
+          <div id="bases" className="progreso-seccion" style={{ display: "none" }}><ProgresoBases /></div>
+          <div id="cloud" className="progreso-seccion" style={{ display: "none" }}><ProgresoCloud /></div>
+          <div id="frameworks" className="progreso-seccion" style={{ display: "none" }}><ProgresoFramework /></div>
+          <div id="metodologias" className="progreso-seccion" style={{ display: "none" }}><ProgresoMetodologias /></div>
+          <div id="extras" className="progreso-seccion" style={{ display: "none" }}><ProgresoExtras /></div>
         </div>
       </section >
       <section className="experiencia" id="experiencia">
@@ -155,7 +156,7 @@ function Principal() {
       </section>
       <section className="contacto" id="contacto">
         <div className="contenido">
-          <h2>Ponte en contacto ahora mismo!</h2>
+          <h2>¡Disponibilidad Inmediata!</h2>
           <div class="fila">
             <div class="col">
               <h2>

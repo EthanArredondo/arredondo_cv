@@ -35,10 +35,11 @@
     line-height: 50px;
     cursor:pointer;
     transition: .3s;
+    z-index: 99;
 }
 
 
-.Principal .presentacion .contenido header .nav-bar a{ 
+.Principal .presentacion .contenido header .nav-bar div{ 
     color: #ffffff;
 }
 
@@ -62,7 +63,7 @@
 }
 
 .Principal .presentacion .contenido header .nav-bar:hover { 
-    box-shadow: 0 0 35px #fff;
+    box-shadow: 0 0 20px 10px #fff ;
 
 }
 
@@ -190,18 +191,33 @@
     background-attachment: fixed;
     background-position: center center;
     color: #fff;
+
+    min-height: 550px; /* Ajusta este valor según el contenido */
+    position: relative; /* Asegura que las secciones internas se posicionen correctamente */
+    overflow: hidden;
 }
 
 .Principal .habilidades .contenido{
     max-width: 1000px;
     margin: auto;
     padding: 0 10px;
+    position: relative; /* Asegura que las secciones de progreso se posicionen correctamente */
+
 }
 
 .Principal .habilidades .contenido h2{
     text-transform: uppercase;
     font-size: 30px;
-    margin-bottom: 50px;
+}
+
+.Principal .habilidades .contenido .seleccion{
+    position: absolute;
+  top: 25;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1; /* Menor que el navbar */
+  transition: opacity 0.5s ease-out, transform 0.5s ease-out;
 }
 
 .Principal .habilidades .contenido .seleccion .fila{
@@ -214,6 +230,18 @@
 .Principal .habilidades .contenido .seleccion .fila .columna{
     width: 30%;
 }
+
+.Principal .habilidades .contenido .progreso-seccion {
+    position: absolute;
+  top: 25;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1; /* Menor que el navbar */
+  opacity: 0;
+  transform: translateX(100%);
+  transition: opacity 0.5s ease-out, transform 0.5s ease-out;
+  }
 
 .Principal .experiencia{
     background-color: #e6e6e6;
@@ -338,3 +366,39 @@
         display: block;
     }
 }
+
+
+/* Animación para mover "seleccion" a la izquierda y desaparecer */
+@keyframes slideOutLeft {
+    from {
+      transform: translateX(0);
+      opacity: 1;
+    }
+    to {
+      transform: translateX(-100%);
+      opacity: 0;
+    }
+  }
+
+  /* Animación para mover el progreso desde la derecha al centro */
+  @keyframes slideInRight {
+    from {
+      transform: translateX(100%);
+      opacity: 0;
+    }
+    to {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+  
+  /* Clases para aplicar las animaciones */
+  .slide-out-left {
+    animation: slideOutLeft 0.5s ease-out forwards;
+  }
+  
+  .slide-in-right {
+    animation: slideInRight 0.5s ease-out forwards;
+  }
+
+  

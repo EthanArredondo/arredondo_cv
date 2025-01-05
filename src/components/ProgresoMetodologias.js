@@ -3,8 +3,10 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faArrowLeft } from "@fortawesome/free-solid-svg-icons";
 
 import '../styles/ProgresoMetodologias.css'
+import '../styles/AnimacionMovimiento.css'
 
 import { volverSeleccion } from "../utils/flechaRetrocesoUtil";
+
 
 
 function ProgresoMetodologias() {
